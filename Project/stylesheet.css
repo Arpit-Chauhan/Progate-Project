@@ -1,0 +1,93 @@
+body{
+margin: 0;
+padding: 0;
+background-image:linear-gradient(to right,#E8CBC0,#636FA4);
+
+}
+.calculator{
+  width: 270px;
+  height: 420px;
+  margin : 10% auto;
+  background: #ccc;
+  border-radius: 20px
+}
+.screen{
+  margin: 20px 0px 0px 12px;
+  padding-right:9px;
+  height:80px;
+  width:230px;
+  background: #858585;
+  text-align: right;
+  border-radius: 6px;
+  border: 1px solid #6b6b6b;
+  font-size: 26px;
+
+}
+
+.screen:focus{
+  outline: none;
+}
+.buttons {
+  width:240px;
+  margin:19px;
+}
+.buttons button{
+  width: 48px;
+  font-size: 16px;
+  font-weight: bold;
+  height: 48px;
+  padding:0px;
+  margin: 8px 0px 0px 5px;
+  border:1px solid #333;
+  border-radius:6px;
+  color:#ccc;
+  line-height: 45px;
+  background: #333;
+}
+.buttons:button:active{
+  background:#fff;
+  border:1px solid #333;
+
+}
+
+
+
+#off{
+  background: #33cc33;
+}
+#off:active{
+  background: #f00;
+}
+#backspace{
+  background: #5353c6;
+}
+#clear{
+  background: #ff6600;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid #d02200;
+}
+#clear:active{
+  border:1px solid #d02200;
+}
+#equal{
+  font-size: 16px;
+  font-weight: bold;
+  width:100px;
+  background: #026;
+  border: 1px solid #026;
+}
+#equal:active{
+  border:1px solid #039;
+}
+
+#operator {
+  background:#036;
+  border: 1px solid #036;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#minus:active,#plus:active,#divide:active,#multiply:active{
+  border: 1px solid #039;
+}
