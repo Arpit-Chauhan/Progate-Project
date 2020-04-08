@@ -61,9 +61,18 @@ calculationOperator=''
 })
 
 back.addEventListener("click", ()=>{
+  if(currentInput.length===1){
+    updateScreen('0')
+       currentInput='0'
+  }
+
+  if(currentInput.length>1){
 let temp=currentInput.substring(0,currentInput.length-1)
 updateScreen(temp)
 currentInput=temp
+}
+
+
 })
 
 close.addEventListener("click", ()=>{
